@@ -1,0 +1,24 @@
+{
+  "name": "Node-Unifi-Console",
+  "version": "0.1.0",
+  "description": "Programa para gerar um voucher no Unifi API.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apavanello/node-unifi-console.git"
+  },
+  "keywords": [
+    "Unifi",
+    "Voucher-API"
+  ],
+  "author": "Alexandre Pavanello e Silva",
+  "bugs": {
+    "url": "https://github.com/apavanello/node-unifi-console/issues"
+  },
+  "homepage": "https://github.com/apavanello/node-unifi-console#readme",
+  "dependencies": {
+
+    "unifi-api": "0.0.1",
+    "request-json": ""
+  }
+}
