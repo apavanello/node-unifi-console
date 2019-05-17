@@ -13,11 +13,13 @@ Fazendo!
  
 Change the code in ```index.js```
 ```
-# export USER=unifiuser;
-# export PASSWORD=unifiuserpassword;
-# export HOST=unificontrollerhost
+  username: "", // username: "api_user",
+  password: "", // password: "api_pass",
+  host: "", // host: "www.apavanello.com.br",
+  ssid: "" // ssid: "Minha SSID"
+  time = '1440' //Time in minutes
+  
 ```
 
 ## RUN
 ```node index.js``` 
-
