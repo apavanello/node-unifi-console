@@ -12,7 +12,7 @@ var api = new Unifi(config);
 var printer;
 
 function generateCode() {
-  var time = '1440' //Time in minutes 
+  var time = "1440" //Time in minutes 
   api.login(function(d) {
     api.addGuestVoucher(1, 1, time, function(err, codes) {
 	    //console.log(codes);
