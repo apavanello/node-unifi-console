@@ -17,7 +17,7 @@ Change the code in ```index.js```
   password: "", // password: "api_pass",
   host: "", // host: "www.apavanello.com.br",
   ssid: "" // ssid: "Minha SSID"
-  time = '1440' //Time in minutes
+  time = "1440" //Time in minutes
   
 ```
 
